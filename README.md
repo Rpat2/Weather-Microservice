@@ -1,10 +1,10 @@
-Communication Contract
+# Communication Contract
 
-#**Clear instructions for how to programmatically REQUEST data from the microservice you implemented. Include an example call. Do not advise your teammate to use your test program or require them to, your teammate must write all of their own code.**
+# Clear instructions for how to programmatically REQUEST data from the microservice you implemented. Include an example call. Do not advise your teammate to use your test program or require them to, your teammate must write all of their own code.
 
 The main program sends a POST request to the microservice endpoint using fetch(). It passes in a zip code that the user entered on the index.hbs page. 
 
-**Clear instructions for how to programmatically RECEIVE data from the microservice you implemented. Include an example call.**
+# Clear instructions for how to programmatically RECEIVE data from the microservice you implemented. Include an example call.**
 
 The microservice has a route that that listens to and responds to post requests at a particular endpoint.
 
@@ -12,7 +12,7 @@ More details on how it works:
 The microservice listens for post requests from the main program and accepts a zip code, The microservice has a route to handle this post request. Once the microservice is called, it sends an HTTP request to the open weather API to get back weather data based on the zip code that was given to it. 
 
 
-**Example Call:**
+# Example Call
 
 From the main program:
 
