@@ -1,0 +1,53 @@
+<!-- index.hbs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Service</title>
+    <link rel="stylesheet" href="/css/main.css"/>
+</head>
+    <body>
+        <div class="borderDiv">
+        <div class = "userInput centerInput">
+            <input type = "text" id = "EnteredZip" placeholder = "Enter a zip code" class ="myButton">
+            <button id = "getData" class=" myButton"> Submit</button> 
+        </div>
+
+        <table class = "center">
+            <tr>
+               <td>Temperature</td> 
+               <td id ="temperature"></td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td id = "description"></td>
+            </tr>
+            <tr>
+                <td>Wind Speed</td>
+                <td id = "windSpeed"></td>
+            </tr>
+            <tr>
+                <td>Humidity</td>
+                <td id = "Humidity"></td>
+            </tr>
+            <tr>
+                <td>Rain</td>
+                <td id ="Rain"></td>
+            </tr>
+
+            
+
+        </table>
+        <div id = "displayImage" class = "picture" style="display:none">
+            <img id = "weatherIcon" src ="" alt = "weatherIcon" style=" display: none;" >
+        </div>
+
+       
+
+        </div>
+
+    <script src="/js/client.js"> </script>
+    </body>
+</html>
