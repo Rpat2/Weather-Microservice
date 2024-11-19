@@ -1,6 +1,6 @@
 Communication Contract
 
-**Clear instructions for how to programmatically REQUEST data from the microservice you implemented. Include an example call. Do not advise your teammate to use your test program or require them to, your teammate must write all of their own code.**
+#**Clear instructions for how to programmatically REQUEST data from the microservice you implemented. Include an example call. Do not advise your teammate to use your test program or require them to, your teammate must write all of their own code.**
 
 The main program sends a POST request to the microservice endpoint using fetch(). It passes in a zip code that the user entered on the index.hbs page. 
 
