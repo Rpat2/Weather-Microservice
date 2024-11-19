@@ -34,9 +34,13 @@ const { zipCode } = req.body;
 
 This then makes an HTTP request to the open weather API.
 const weatherData = await fetch(`https://api.openweathermap.org/data/2.5/weather?zip=${zipCode},US&appid={KEY}&units=imperial`)
+
  
 It then takes this takes the body of the response and converts it to a javascript object. 
 This JavaScript object is then sent back to the main program using res.json() which takes a JavaScript object as a parameter and converts it to a JSON string before sending it over. 
 
 The main program can then use the data returned to fill out tables.
+
+<img width="951" alt="Screenshot 2024-11-18 at 10 38 31 PM" src="https://github.com/user-attachments/assets/e89de2fb-44a2-4884-9a6a-2aa117810216">
+
 
