@@ -6,7 +6,7 @@ The main program sends a POST request to the microservice endpoint using fetch()
 
 **Clear instructions for how to programmatically RECEIVE data from the microservice you implemented. Include an example call.**
 
-The microservice has a route that that listens to and responds to post requests to a particular endpoint.
+The microservice has a route that that listens to and responds to post requests at a particular endpoint.
 
 More details on how it works: 
 The microservice listens for post requests from the main program and accepts a zip code, The microservice has a route to handle this post request. Once the microservice is called, it sends an HTTP request to the open weather API to get back weather data based on the zip code that was given to it. 
