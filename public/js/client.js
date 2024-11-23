@@ -52,19 +52,6 @@ document.getElementById("getData").addEventListener('click', async ()=> {
         document.getElementById("displayImage").style="block"
 
         
-        //Testing to see what the data looks like. 
-        // console.log(formatedData);
-        // console.log("Temp:",formatedData.main.temp,"\u00B0F");
-        // console.log("Description:", formatedData.weather[0].description);
-        // console.log("Wind Speed:",formatedData.wind.speed,"mph");
-        // console.log("Humidity:",formatedData.main.humidity,"%"); 
-        // if (!formatedData.rain) {
-        //     console.log("No Rain in the past hour")
-        // }
-        //  else {
-        //     console.log("Milimeters of rain in the past hour:", formatedData.rain["1h"]);
-        //  }
-            
 
     }
     //This is just to catch any errors from the promises like fetch() or json()
